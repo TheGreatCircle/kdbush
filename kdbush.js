@@ -172,6 +172,7 @@ var KDBush = function KDBush(
   points,
   ref
 ) {
+  if ( ref === void 0 ) ref = {};
   var getX = ref.getX; if ( getX === void 0 ) getX = defaultGetX;
   var getY = ref.getY; if ( getY === void 0 ) getY = defaultGetY;
   var nodeSize = ref.nodeSize; if ( nodeSize === void 0 ) nodeSize = 64;
