@@ -15,7 +15,7 @@ export default class KDBush {
       ArrayType = Float64Array,
       ids,
       coords
-    }
+    } = {}
   ) {
     this.nodeSize = 64
     this.points = Float64Array
