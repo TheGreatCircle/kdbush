@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "A very fast static 2D index for points based on kd-tree.",
   "module": "src/index.js",
-  "main": "kdbush.js",
+  "main": "kdbush.min.js",
   "jsdelivr": "kdbush.min.js",
   "unpkg": "kdbush.min.js",
   "repository": {
